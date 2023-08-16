@@ -1,4 +1,7 @@
 {
+   "stack": "heroku-20"
+}
+{
   "name": "Bot",
   "description": "file",
   "keywords": [
