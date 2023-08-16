@@ -1,0 +1,57 @@
+{
+  "name": "Bot",
+  "description": "file",
+  "keywords": [
+    "telegram",
+    "file",
+    "sharing"
+  ],
+  "repository": "https://github.com/shallow090/yspi",
+  "logo": "https://ibb.co/FgPVtzw",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Bot token, Get it from @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "username withoutr @",
+      "value": "1250450587"
+    },
+    "API_ID":{
+      "description": "your app id, take it from my.telegram.org",
+      "value": ""
+    },
+    "MONGO_DB": {
+      "description": "Paste your mongo db url",
+      "value": "url"
+    },
+    "API_HASH":{
+      "description": "your api hash, take it from my.telegram.org",
+      "value": ""
+    },
+    "ARCHIVE_CHANNEL":{
+      "description": "file store channel id",
+      "value": "-100"
+    },
+    "MAIN_CHANNEL":{
+      "description": "id of the channel index",
+      "value": "-100"
+    },
+    "MESSAGE_ID": {
+      "description": "main chanel msg id",
+      "value": ""
+    },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
+
+
